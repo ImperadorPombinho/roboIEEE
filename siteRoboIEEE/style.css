@@ -1,21 +1,18 @@
-body{
+.principal{
     background-color: #CCCCCC;
+    padding: 30px;
 }
-h1{
+.titulo-do-site{
     color: rgb(115, 0, 255);
-    text-align: center;
+    padding-left: 20px;
 }
 #roboOla{
-    width: 70%;
-  
-    
+    width: 40%;
+    margin: 30px;
+    padding: 10px; 
 }
-h3{
-    text-align: center;
-}
-h4{
-    text-align: center;
-}
+
+
 p{
     text-align: center;
 }
@@ -26,6 +23,28 @@ p{
     text-align: left;
 }
 em strong{
-    color: rgb(100, 6, 251);
+    color: rgb(110, 0, 52);
+}
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    
+}
+.imagemtiago{
+    width: 30%;
+}
+.titulo-centralizado{
+    color: rgb(115, 0, 255);
+    text-align: center;
 }
 
