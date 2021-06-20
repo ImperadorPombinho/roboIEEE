@@ -5,6 +5,11 @@ h1{
     color: rgb(115, 0, 255);
     text-align: center;
 }
+#roboOla{
+    width: 70%;
+  
+    
+}
 h3{
     text-align: center;
 }
@@ -14,7 +19,12 @@ h4{
 p{
     text-align: center;
 }
-
+#missao{
+    font-size: 20px;
+}
+#logica{
+    text-align: left;
+}
 em strong{
     color: rgb(100, 6, 251);
 }
