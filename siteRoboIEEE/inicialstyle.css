@@ -1,16 +1,55 @@
 header{
     background-color: #CCCCCC;
     height: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    
 }
 .titulo-pagina{
-    display: inline-block;
-    vertical-align: top;
+    text-transform: uppercase;
     margin-right: 20px;
+    margin-top: 13px;
     text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(75, 1, 1);
+    position: absolute;
+    top: 75px;
+    
 }
 .cabecalho-inicial{
     width: 100px;
     height: 100px;
     margin-left: 20px;
+    position: absolute;
+    top: 54px;
+    left: 150px;
     
+}
+.caixa{
+    position: relative;
+    width: 1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    position: absolute;
+    top: 92px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin-right: 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(75, 1, 1);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
