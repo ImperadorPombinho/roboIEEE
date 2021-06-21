@@ -1,0 +1,16 @@
+header{
+    background-color: #CCCCCC;
+    height: 220px;
+}
+.titulo-pagina{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    text-align: center;
+}
+.cabecalho-inicial{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    
+}
