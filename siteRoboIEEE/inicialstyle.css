@@ -53,6 +53,10 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
 .caixa-introdutoria{
     width: 940px;
     margin-top: 0;
@@ -66,6 +70,7 @@ nav a{
     font-weight: bolder;
     color: rgb(75, 1, 1);
     margin-bottom: 25px;
+    padding-top: 20px;
 }
 .gif-robo{
     margin-left: 50px;
@@ -88,6 +93,8 @@ nav a{
 .imagem-selecao{
     width: 280px;
     height: 200px;
+    position: relative;
+    right: 23px;
 } 
 .conteudo-principal{
     margin-top: 40px;
@@ -109,11 +116,32 @@ nav a{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.conteudo-principal ul li:hover{
+    border-color: #C78C19;
+    
+    
+}
+.conteudo-principal ul li:active{
+    border-color: green;
+}
+
+.conteudo-principal ul li:hover a{
+    font-size: 40px;
+    color: #C78C19;
+}
+.conteudo-principal ul li:hover p{
+    color: #C78C19;
 }
 .conteudo-principal h3{
     font-size: 30px;
     font-weight: bold;
-
+    
+}
+.conteudo-principal a{
+    text-decoration: none;
 }
 .conteudo-principal p{
     font-size: 18px;
