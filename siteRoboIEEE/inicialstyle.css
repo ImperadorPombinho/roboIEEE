@@ -31,7 +31,7 @@ header{
 }
 .caixa{
     position: relative;
-    width: 1000px;
+    width: 940px;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
@@ -52,4 +52,71 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+.caixa-introdutoria{
+    width: 940px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(75, 1, 1);
+    margin-bottom: 25px;
+}
+.gif-robo{
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    padding-right: 20px;
+    position: relative;
+    right: 30px;
+}
+.paragrafo-introdutorio{
+    display: inline-block;
+    text-align: start;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 24px;
+    color: rgb(75, 1, 1);
+}
+.imagem-selecao{
+    width: 280px;
+    height: 200px;
+} 
+.conteudo-principal{
+    margin-top: 40px;
+    
+}
+.conteudo-principal ul{
+    width: 940px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+}
+.conteudo-principal ul li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.conteudo-principal h3{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.conteudo-principal p{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 0;
 }

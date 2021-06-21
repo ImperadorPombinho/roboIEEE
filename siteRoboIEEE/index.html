@@ -1,61 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
     <head>
         <meta charset="UTF-8">
-        <title>ROBO BOISU</title>
-        <link rel="stylesheet" href="style.css">
+        <title>ROBÔ BOISU - INICIAL</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="inicialstyle.css">
     </head>
     <body>
         <header>
-            <h1 class="titulo-do-site">ROBÔ BOISU</h1>
+            <div class="caixa">
+                <h1>
+                    <p class="titulo-pagina">robô boisu</p> 
+                    <img src="imagens/logoLibras.png" alt="logoLibras" title="Logo de Libras" class="cabecalho-inicial">
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="robos.html">Robôs</a></li>
+                        <li><a href="boisu.html">Boisu</a></li>
+                        <li><a href="creditos.html">Créditos</a></li>
+                    </ul>
+                </nav>
+            </div>
+
         </header>
-        <div class="principal">
-           
-            <p class="paragrafo-introducao"> Sejam Bem-vindos ao site informativo do robo Boisu, como dito esse site irá passar informações, experiencias e historias sobre
-                a criação do Boisu, Com essa breve introdução, acredito que você se interessou em saber um pouco mais então vamos conhecer melhor 
-                o Boisu ?
-            </p>
-            <img id="roboOla" src="imagens/roboOla.gif" alt="robô dando olá pra você" title="Dê um olá para esse robs fofo" align = "middle">
-        </div>
-        <div class="secundaria">
-            <h2 class="titulo-secundario"> Mas o que é um robô?</h2>
-            <p class="paragrafo">Primeiramente vamos responder essa pergunta, pois muita gente se confude robô com inteligecia artificial,
-             robô é uma maquina capaz de fazer tarefas, utilizada muitas vezes para ajudar humanos em tarefas repetitivas e mecanicas, tendo
-             aparencias bem diversas e so executa essas tarefas caso haja uma programação para ele executar ela
-             Tendo várias utilidades, como espionagem, carregamento de cargas se for um robô industrial, podendo ir ate a outro planeta.
-            </p>
-        
-            <h2 class="titulo-secundario"> Quem é Boisu?</h2>
-        
-            <p class="paragrafo">Com a definição de robô explicada, vamos ver uma mini introdução de quem é Boisu, <strong class="negrito">Boisu</strong> é um robô, capaz de citar frases em libras, como "Oi eu sou Boisu" por exemplo</p>
-        
-            <p id="missao"><em>Sua missão é <strong class="negrito">"trazer para as pessoas uma introdução sobre libras"</strong></em></p>
-        
-            <p class="paragrafo">Assim fazendo os sinais de forma dinamica para executar tal missão</p>
-        
-            <h2 class="titulo-secundario">Logica de como fazer o robo se movimentar</h2>
-            <p class="paragrafo">Nessa parte explicaremos como o Boisu faz realmente um sinal de libras, acreditamos que quem é programador gostaria de saber um pouco mais a fundo como funciona o nosso grandinho Boisu, a <strong class="negrito">logica</strong> pensada, foi em base com  o braço do corpo humano, onde
-                para se movimentar o braço o cerebro envia sinais nervosos para o
-                local, fazendo este se movimentar para posição desejada, no robo foi pensado 
-                da mesma forma, mas convertido em numero, onde cada letra teria dados  numericos especificos para cada
-                motor do braço, fazendo um laço de repetição interagir com os motores, enviando cada dado para cada motor
-                imitando o cerebro humano
-            </p>
-        </div>
+        <main>
+            <div class="caixa-introdutoria">
+                <h2 class="titulo-principal">Bem vindo ao Boisu</h2>
+                <img src="imagens/roboOla.gif" alt="roboOla" title="robo dando olá para você" class="gif-robo">
+                <p class="paragrafo-introdutorio">
+                    Sejam Bem-vindos ao site informativo do robo Boisu, como dito esse site irá passar informações, experiencias e historias sobre
+                    a criação do Boisu e de outros robôs criados no mundo, Com essa breve introdução, acredito que você se interessou em saber um pouco mais, então vamos conhecer melhor 
+                    o Boisu ?
+                </p>
+            </div>
+            <div class="conteudo-principal">
+                <ul>
+                    <li>
+                        <h3>Robôs</h3>
+                        <img src="imagens/walleRobo.png" alt="Wall-E" title="koe Wall-E" class="imagem-selecao">
+                        <p>Aqui vamos falar sobre os robôs </p>
+                    </li>
+                    <li>
+                        <h3>Boisu</h3>
+                        <img src="imagens/boisu.png" alt="Boisu" title="koe Boisu" class="imagem-selecao">
+                        <p>Aqui vamos introduzir e falar sobre o Boisu</p>
+                    </li>
+                    <li>
+                        <h3>Créditos</h3>
+                        <img src="imagens/creditos.png" alt="créditos" title="créditos" class="imagem-selecao">
+                        <p>Aqui daremos os créditos para a equipe</p>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="beneficios">
-            <h3 class="titulo-secundario">Beneficios do Boisu na Sociedade</h3>
-            <ul>
-                <li class="itens">Introduzir Libras nas Empresas</li>
-                <li class="itens">Auxiliar o ensinamento de Libras</li>
-                <li class="itens">Facilidade na manutenção de sua programação</li>
-                <li class="itens">Mordenização na educação</li>
-                Vendo ao lado temos o pai do Boisu, o Tiago.
-            </ul>
-            
-            <img src="imagens/tiago.jpg" alt="Tiago aqui" title="Pai de Boisu aqui" class="imagemtiago">
-        </div>
+        </main>
     </body>
-
-
 </html>
