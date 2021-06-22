@@ -1,0 +1,103 @@
+header{
+    height: 200px;
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+.div-cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.titulo-pagina{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(75, 1, 1);
+    position: absolute;
+    top: 98px;
+}
+.div-cabecalho img{
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+nav{
+    position: absolute;
+    top: 95px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 15px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(75, 1, 1);
+
+}
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+.boisu li{
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.titulo-robs{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(75, 1, 1);
+    margin-top: 20px;
+}
+.div-img{
+    display: inline-block;
+    margin-right: 15%;
+    position: relative;
+    top: 32px;
+    left: 3px;
+}
+.img-boisu{
+    width: 300px;
+}
+.texto{
+    display: inline-block;
+    width: 340px;
+}
+.paragrafo{
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid black;
+}
+.paragrafo:hover{
+    border-color: #C78C19;
+}
+.texto-inverso{
+    display: inline-block;
+    width: 340px;
+    padding-right: 15%;
+    margin-top: 54px;
+}
+.img-inverso{
+    display: inline-block;
+    position: relative;
+    bottom: 85px;
+}
+.img-python{
+    width: 300px;
+}
+footer{
+    text-align: center;
+    background: url("imagens/bg.png");
+    padding: 40px 0;
+}
+.copyt{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

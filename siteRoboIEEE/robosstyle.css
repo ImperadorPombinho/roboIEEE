@@ -22,6 +22,7 @@ header{
     left: 130px;
 }
 .caixa{
+
     position: relative;
     width: 940px;
     margin: 0 auto;
@@ -41,4 +42,70 @@ nav a{
     font-size: 22px;
     font-weight: 600;
     color:rgb(75, 1, 1);
+}
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+.robs li{
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.div-img{
+    width: 140px;
+    display: inline-block;
+    margin-right: 150px;
+}
+.img-karel{
+    width: 180px;
+    padding-top: 35px;
+}
+.img-shakey{
+    width: 150px;
+    padding-top: 35px;
+}
+.img-webots{
+    width: 140px;
+    padding-top: 35px;
+}
+.div-texto{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding-top: 5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+}
+.div-texto:hover{
+    border-color: #C78C19;;
+}
+ .titulo-robs{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(75, 1, 1);
+    padding-bottom: 13px;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 250px;
+    
+}
+.paragrafo{
+    font-size: 17px;
+    text-align: center;
+    margin: 1px 1px 1pc;
+
+}
+footer{
+    text-align: center;
+    background: url("imagens/bg.png");
+    padding: 40px 0;
+   
+}
+.copyrightt{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
