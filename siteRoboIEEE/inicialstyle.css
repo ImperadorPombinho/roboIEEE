@@ -75,7 +75,7 @@ nav a:hover{
 .gif-robo{
     margin-left: 50px;
     margin-top: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
     padding-right: 20px;
     position: relative;
     right: 30px;
@@ -147,4 +147,15 @@ nav a:hover{
     font-size: 18px;
     font-weight: 600;
     margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    background: url("imagens/bg.png");
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+    
 }
