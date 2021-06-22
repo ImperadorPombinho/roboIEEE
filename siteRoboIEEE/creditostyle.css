@@ -1,0 +1,111 @@
+header{
+    height: 220px;
+    padding-top: 19px;
+    background-color: #CCCCCC;
+    padding-bottom: 20px;
+}
+
+.titulo-pagina{
+    font-size: 22px;
+    margin: 10px 22px 0px 0px;
+    font-weight: 700;
+    color: rgb(75, 1, 1);
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+
+}
+
+
+.img-libras{
+    width: 100px;
+    position: absolute;
+    top: 73px;
+    left: 132px;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 108px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 15px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(75, 1, 1);
+    font-weight: bold;
+}
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+.titulo-creditos{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(75, 1, 1);
+    text-align: center;
+}
+.img-reyna{
+    width: 200px;
+}
+.lista-cred{
+    width: 940px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+
+}
+.lista-cred li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    margin: 1.5% 1.5%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+.lista-cred li:hover{
+    border-color: #C78C19;
+}
+
+.danisson{
+    position: relative;
+    left: 314px;
+}
+.lista-cred p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.nome:hover{
+    font-size: 40px;
+    color: #C78C19;
+}
+footer{
+    text-align: center;
+    background: url("imagens/bg.png");
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+    
+}
