@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Robô Boisu - Contato</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contatostyle.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1>
+                    <p class="titulo-pagina">robô boisu</p> 
+                    <img src="imagens/logoLibrasPreto.png" alt="logoLibras" title="Logo de Libras" class="cabecalho-inicial">
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="robos.html">Robôs</a></li>
+                        <li><a href="boisu.html">Boisu</a></li>
+                        <li><a href="creditos.html">Créditos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <main>
+            <h2>Formulario</h2>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="tel">Telefone</label>
+                <input type="tel" id="tel" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"> 
+                
+                <label for="mansagem">Mensagem</label>
+                <textarea cols="72" rows="10" id="mensagem" class="input-padrao" required> </textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email" checked>
+                        Email
+                    </label>
+                    
+    
+                    <label for="radio-telefone">
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        Telefone
+                    </label>
+                    
+    
+                    <label for="radio-telegram">
+                        <input type="radio" name="contato" value="telegram" id="radio-telegram">
+                        Telegram
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>O que se trata a mensagem?</legend>
+                    <select>
+                        <option>Ideia</option>
+                        <option>Dúvida</option>
+                        <option>Crítica</option>
+                    </select>
+                </fieldset>
+
+                <label class="check"><input type="checkbox" checked>Gostaria de receber novidades pelo o Email?</label>
+
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+            
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Horario e Dias da Resposta do formulário</td> 
+                    </tr>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                    </thead>
+                <tbody>
+
+                    <tr>
+                         <td>Segunda</td>
+                        <td>8h - 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h - 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h - 18h</td>
+                    </tr>
+                </tbody>
+    
+            </table>
+            
+
+        </main>
+        <footer>
+            <img src="imagens/logoLibrasBranco.png" alt="LibrasBranco" title="Libras">
+            <p class="copyright">&copy; Copyright Robô Boisu - 2021</p>
+        </footer>
+    </body>
+</html>

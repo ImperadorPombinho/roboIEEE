@@ -119,6 +119,12 @@ nav a:hover{
     border: 2px solid black;
     border-radius: 15px;
 }
+.contato{
+    margin-top: 50px;
+    position: relative;
+    left: 316px;
+    top: 23px;
+}
 .conteudo-principal ul li:hover{
     border-color: #C78C19;
     
